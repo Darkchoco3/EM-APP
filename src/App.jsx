@@ -15,14 +15,15 @@ function App() {
 
   return (
     <>
-      <BrowserRouter> 
+      <BrowserRouter>
+      <NavBar/> 
       <Routes>
-       <Route element={<NavBar/> }> 
+       {/* <Route element={<NavBar/> }> 
+
+        </Route> */}
        <Route path='/' element={<Home/>}/>
        <Route path='/FriendProfile' element={<FriendProfile/>}/>
        <Route path='/Profile' element={<Profile/>}/>
-
-        </Route>
         <Route path='/SignUp' element={<SignUp/>}/> 
         <Route path='/SignIn' element={<SignIn/>}/> 
         <Route path='/ForgotPassword' element={<ForgotPassword/>}/> 
