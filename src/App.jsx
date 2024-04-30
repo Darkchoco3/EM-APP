@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <NavBar/> 
+      {/* <NavBar/>  */}
       <Routes>
        {/* <Route element={<NavBar/> }> 
 

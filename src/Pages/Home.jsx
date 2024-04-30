@@ -18,6 +18,7 @@ const Home = () => {
   return (
     <>
       {/* john section */}
+      <Navbar/>
 
       <div className="parent container position-sticky">
         <div className="children">

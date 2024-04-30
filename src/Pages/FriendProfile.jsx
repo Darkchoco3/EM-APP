@@ -11,6 +11,7 @@ import "../style/FriendProfile.css";
 // import NavBarMobile from "../layout/NavBarMobile";
 import { FriendsData } from "../db";
 import { Link } from "react-router-dom";
+import Navbar from "../Layout/NavBar";
 
 // import Fetch from "../components/Fetch";
 // import friend from "../assets/friend.png";
@@ -19,6 +20,7 @@ import { Link } from "react-router-dom";
 const FriendProfile = () => {
   return (
     <>
+    <Navbar/>
     <main className="container-fluid bg-light">
         <section className="container">
           <div className="row ">
