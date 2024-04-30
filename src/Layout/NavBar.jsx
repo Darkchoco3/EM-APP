@@ -73,8 +73,8 @@ const Navbar = () => {
             </div>
           </section>
         </div>
-      </main>
       <Outlet/>
+      </main>
     </>
   );
 };
